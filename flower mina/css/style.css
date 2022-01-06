@@ -1,0 +1,725 @@
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    font-family: 'B yekan';
+}
+
+/* site top */
+.navbar {
+    background-color: rgb(214, 244, 241);
+    font-size: 10pt;
+    color: rgba(95, 94, 94, 0.933);
+}
+
+.navbar .title-top-center {
+    text-align: center;
+}
+
+.navbar .title-top-left {
+    float: left;
+}
+
+/* end site top */
+
+/* header */
+.header {
+    height: 14rem;
+}
+
+.margin-header {
+    margin-top: 6rem;
+}
+
+.icon-header {
+    position: relative;
+    display: inline-block;
+}
+
+.header .number-shopping {
+    width: 2rem;
+    height: 2rem;
+    background: #999999;
+    position: absolute;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 50%;
+    color: #ffff;
+}
+
+.header .sopping {
+    position: relative;
+    font-size: 22pt;
+    top: -1px;
+    right: 35px;
+    color: #999999;
+}
+
+.header .login-register .register {
+    display: inline-block;
+    position: relative;
+    right: 83px;
+    top: -45px;
+    color: #999999;
+    text-decoration: none;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.header .image-header {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.header .me-2 {
+    margin-left: 0 !important;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    height: 3rem;
+}
+
+.header .btn {
+    border-radius: 0 !important;
+    border: 0;
+    border-left: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-top: 1px solid silver;
+    color: #9999;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+.header .btn:hover {
+    background: #999999 !important;
+    transition: all .3s;
+    color: white;
+}
+
+.bg-light {
+    background-color: inherit !important;
+}
+
+.search-menu {
+    margin-top: 4rem;
+    position: relative;
+    right: 5rem;
+
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    font-size: 15pt;
+    font-family: B koodak;
+}
+
+.home-nav {
+    color: rgb(42, 210, 214) !important;
+
+}
+
+ul.navbar-nav li:nth-child(2) {
+    padding: 0 10px;
+    border-right: 1px solid silver;
+}
+
+ul.navbar-nav li:nth-child(3) {
+    padding: 0 10px;
+    border-right: 1px solid silver;
+}
+
+ul.navbar-nav li:nth-child(4) {
+    padding: 0 10px;
+    border-right: 1px solid silver;
+}
+
+ul.navbar-nav li:nth-child(5) {
+    padding: 0 10px;
+    border-right: 1px solid silver;
+}
+
+ul.navbar-nav li:nth-child(6) {
+    padding: 0 10px;
+    border-right: 1px solid silver;
+}
+
+ul.navbar-nav li:nth-child(7) {
+    padding: 0 10px;
+    border-right: 1px solid silver;
+}
+
+.collapse .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(42, 210, 214) !important;
+}
+
+/* end header */
+
+/* slider */
+.carousel-control-prev-icon {
+    background-image: inherit;
+    font-size: 50pt;
+    color: #0016ff;
+}
+
+.carousel-control-next-icon {
+    background-image: inherit;
+    font-size: 50pt;
+    color: #0016ff;
+}
+
+/*  end slider */
+
+/* content */
+.content-back {
+    padding: 0;
+    margin-top: 7rem;
+}
+
+.content-back img {
+    width: 100%;
+    padding: 0;
+}
+
+.title-content {
+    position: relative;
+    bottom: 22rem;
+    text-align: center
+}
+
+.title-content .title-content-top {
+    font-size: 12pt;
+    display: block;
+}
+
+.title-content .title-content-main {
+    font-size: 28pt;
+    display: block;
+}
+
+.title-content .bottom-content {
+    text-decoration: none;
+    color: #333232;
+    background: #ffff;
+    width: 45%;
+    display: inline-block;
+    height: 42px;
+    font-size: 10pt;
+    font-weight: 900;
+    line-height: 41px;
+    margin-top: 20px;
+}
+
+.title-content .bottom-content:hover {
+    background-color: rgb(203 235 235);
+}
+
+/* end content */
+
+/* newest flower */
+.title-new-flower {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.title-new-flower span {
+    border-bottom: 3px solid #aae8e3;
+    width: 25%;
+    display: inline-block;
+    font-size: 22pt;
+}
+
+.boxshadow-flower-new {
+    text-align: center;
+    box-shadow: 2px 1px 9px 2px silver;
+    height: 23rem;
+    margin-bottom: 2rem;
+}
+
+.boxshadow-flower-new .box-new-flower-img {
+    overflow: hidden;
+}
+
+.boxshadow-flower-new .box-new-flower-img img {
+    width: 80%;
+    height: 80%;
+    transition: transform .2s;
+}
+
+.boxshadow-flower-new .box-new-flower-img img:hover {
+    transform: scale(1.3);
+
+}
+
+.boxshadow-flower-new .box-new-flower-title a {
+    font-size: 27px;
+    color: rgb(0, 161, 165);
+    text-decoration: none;
+    display: block;
+}
+
+.boxshadow-flower-new .box-new-flower-title span {
+    display: block;
+    font-size: 14pt;
+    color: #fc1111;
+}
+
+.boxshadow-flower-new .box-new-flower-title a.bottom-flower-new {
+    text-decoration: none;
+    background-color: rgb(178, 223, 224);
+    display: block;
+    width: 71%;
+    margin: 11px auto;
+    height: 2.5rem;
+    color: black;
+    line-height: 38px;
+    font-size: 13pt;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid rgb(178, 223, 224);
+}
+
+.boxshadow-flower-new .box-new-flower-title a.bottom-flower-new:hover {
+    background-color: white;
+}
+
+/* end  newest flower */
+
+
+
+/* flower care */
+.container-flower-care{
+    margin-top: 11rem;
+}
+.flower-care-right{
+    text-align: center;
+    margin-top: 13rem;
+}
+.flower-care-right h2{
+    font-size: 37pt;
+    font-weight: bold;
+}
+.flower-care-right p{
+    font-size: 28pt;
+    margin-right: 4rem;
+}
+.flower-care-right-buttom p{
+    text-align: justify;
+    margin-right: 12rem;
+    font-size: 11pt;
+    color: #abababee;
+}
+.flower-care-left{
+    text-align: center;
+}
+.flower-care-left img:nth-child(1){
+    position: relative;
+    right: 3.5rem;
+    width: 79%;
+    height: 230px;
+}
+.flower-care-left img:nth-child(2){
+    position: relative;
+    right: -4rem;
+    width: 63%;
+    height: 48rem;
+    object-fit: cover;
+    top: -8rem;
+}
+.flower-care-right-buttom{
+    text-align: center;
+}
+.flower-care-right-buttom a{
+    text-decoration: none;
+    color: #5a5757cc;
+    position: relative;
+    right: 13rem;
+    top: 4rem;
+}
+/* end flower care */
+
+
+/* oder-flower */
+.oder-flower{
+    background-image: url(../img/08671d91521648ada8fa27a1d67ea1ce.png);
+    width: 100%;
+    height: 710px;
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    margin-top: 5rem;
+}
+.text-oder-full{
+    position: relative;
+    text-align: center;
+    top: 9rem;
+}
+.text-oder h2{
+    color: white;
+    font-size: 30pt;
+    font-weight: 300;
+}
+.text-oder h1{
+    color: white;
+    font-size: 46pt;
+    font-weight: bold;
+    line-height: 95px;
+}
+.oder-number{
+    background-color: rgba(169, 231, 226, 0.74);
+    height: 10rem;
+    position: relative;
+    top: 1rem;
+}
+.oder-number h3{
+    color: white;
+    font-size: 25pt;
+    font-weight: bold;
+    line-height: 85px;
+}
+.oder-number h5{
+    font-size: 25pt;
+    color: white;
+    font-weight: bold;
+}
+
+/* end oder-flower */
+
+
+/* footer */
+footer{
+    background-color: rgb(214, 244, 241);
+}
+footer .footer-right ,.footer-main,.footer-left{
+    margin-top: 3rem;
+}
+footer p{
+    font-size: 16pt;
+    font-weight: 600;
+}
+footer ul{
+    line-height: 43px;
+    font-size: 13pt;
+    font-family: B koodak;
+    color: #565555cc;
+}
+footer ul li {
+    list-style-type: none;
+}
+.footer-left span{
+    font-size: 27pt;
+    color: #858585cc;
+    padding: 5px 12px;
+}
+.footer-left span:hover{
+    cursor: pointer;
+    color: rgb(42, 210, 214)
+}
+footer .tittle-footer{
+    font-size: 10pt;
+    font-weight: normal;
+}
+
+.footer-button{
+    text-align: center;
+    background: white;
+    height: 67px;
+    font-size: 16pt;
+    font-weight: 300;
+    line-height: 73px;
+}
+
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:991px) {
+    .margin-header {
+        margin-top: 4rem;
+    }
+
+    .navbar.navbar-bottom-header {
+        position: relative;
+        top: -15rem;
+    }
+
+    .image-header img {
+        position: relative;
+        top: -7rem;
+    }
+
+    .icon-header {
+        float: left;
+        padding-left: 35px;
+    }
+
+    .navbar.search-header-top {
+        margin: 0;
+        position: relative;
+        top: -5rem;
+        float: left;
+        padding-left: 4rem;
+    }
+
+    .login-register {
+        position: relative;
+        top: 7rem;
+    }
+
+    .header .login-register .register {
+        top: 0;
+    }
+
+    .content-back {
+        margin-top: 47px;
+    }
+
+    .title-content {
+        top: -47rem;
+    }
+
+    .responsiv, .responsiv2 {
+        margin-top: -7.5rem;
+    }
+
+    .title-new-flower {
+        margin-top: -5rem;
+    }
+
+    .title-new-flower span {
+        width: 73%;
+    }
+    .boxshadow-flower-new{
+        height: 48rem;
+    }
+    .flower-care-left img:nth-child(2){
+        position: relative;
+        right: -2rem;
+        width: 83%;
+        height: 42rem;
+        object-fit: cover;
+        top: -8rem;
+
+    }
+    .flower-care-right-buttom p{
+        text-align: justify;
+    margin-right: 11rem;
+    font-size: 11pt;
+    color: #abababee;
+    }
+    .flower-care-right-buttom{
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .search-menu {
+        right: 0;
+    }
+}
+
+@media screen and (max-width:543px) {
+    .header .login-register .register {
+        right: 12px;
+    }
+
+    .navbar.search-header-top {
+        padding-left: 0;
+        width: 70%;
+    }
+
+    .title-content {
+        top: -32rem;
+    }
+ 
+}
+
+@media screen and (max-width:468px) {
+    .image-header img {
+        width: 50%;
+    }
+
+    .container-fluid {
+        position: relative;
+        top: 0.5rem;
+        right: -1rem;
+    }
+
+    .icon-header {
+        position: relative;
+        top: -1rem;
+    }
+
+    .title-content {
+        top: -29rem;
+    }
+    .text-oder h2{
+        font-size: 23pt;
+    }
+    .text-oder h1{
+        font-size: 26pt !important;
+    }
+    .oder-number h3{
+        font-size: 18pt !important;
+    }
+}
+
+
+
+@media screen and (max-width:959px) {
+    .navbar-collapse {
+        z-index: 999;
+        background: rgb(239, 255, 253);
+    }
+}
+
+@media screen and (max-width:767px) {
+    .title-content {
+        top: -35rem;
+    }
+    .boxshadow-flower-new {
+        height: 39rem;
+}
+.flower-care-right-buttom p {
+    text-align: justify;
+    margin-right: 4rem;
+    font-size: 11pt;
+    color: #abababee;
+}
+.flower-care-right-buttom a {
+    text-decoration: none;
+    color: #5a5757cc;
+    position: relative;
+    right: 9rem;
+    top: 1rem;
+}
+.flower-care-right {
+    text-align: center;
+    margin-top: 7rem;
+}
+.flower-care-right p {
+    font-size: 24pt;
+    margin-right: 1rem;
+}
+.flower-care-left img:nth-child(2) {
+    position: relative;
+    right: -2rem;
+    width: 83%;
+    height: 30rem;
+    object-fit: cover;
+    top: -8rem;
+}
+.text-oder h1 {
+    font-size: 35pt;
+}
+
+}
+
+
+
+@media screen and (max-width:400px) {
+    .title-content {
+        top: -22rem;
+    }
+    .boxshadow-flower-new {
+        height: 28rem;
+    }
+
+}
+@media screen and (max-width:500px) {
+    .boxshadow-flower-new {
+        height: 35rem;
+}
+.flower-care-right-buttom p {
+    text-align: justify;
+    margin-right: 1rem;
+    font-size: 11pt;
+    color: #abababee;
+}
+.footer-button{
+    font-size: 10pt;
+}
+
+}
+@media screen and (max-width:476px) {
+    .boxshadow-flower-new {
+        height: 32rem;
+}
+}
+@media screen and (max-width:393px) {
+    .boxshadow-flower-new {
+         height: 29rem;
+}
+}
+
+
+
+@media screen and (max-width:614px) {
+    .flower-care-left img:nth-child(1){
+        display: none;
+    }
+    .flower-care-right {
+        text-align: center;
+        margin-top: -8rem;
+    }
+}
+
+
+@media screen and (max-width: 422px){
+    .flower-care-right-buttom p {
+        text-align: justify;
+        margin-right: 0rem;
+        font-size: 9pt;
+        color: #abababee;
+}
+.flower-care-right-buttom a {
+    right: 4rem;
+    top: 0rem;
+}
+}
+@media screen and (max-width:507px) {
+    .oder-number h3{
+        font-size: 22pt;
+        line-height: 74px;
+    }
+}
+
+@media screen and (max-width:372px){
+    .oder-number h3{
+        font-size: 15pt !important;
+    }
+}
+@media screen and (max-width:576px){
+.content-back{
+    width: 90%;
+    margin: 47px auto;
+    box-shadow: 2px 1px 9px 2px silver;
+}
+}
+@media screen and (max-width:414px){
+    .title-content {
+        top: -23rem;
+    }
+}
